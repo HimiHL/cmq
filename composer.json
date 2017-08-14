@@ -21,7 +21,8 @@
             "Cmq\\Queue\\": "src/Cmq/Queue",
             "Cmq\\Topic\\": "src/Cmq/Topic",
             "Cmq\\Subscription\\": "src/Cmq/Subscription",
-            "Cmq\\Data\\": "src/Cmq/Data"
+            "Cmq\\Data\\": "src/Cmq/Data",
+            "Cmq\\Exception\\": "src/Cmq/Exception"
         }
     },
     "autoload-dev": {
