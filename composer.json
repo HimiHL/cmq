@@ -1,0 +1,31 @@
+{
+    "name": "himi/cmq",
+    "description": "Tencent Cloud's CMQ For PHP5.6+",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "himi",
+            "email": "himi@88hao.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cmq\\Queue\\": "src/Cmq/Queue",
+            "Cmq\\Topic\\": "src/Cmq/Topic",
+            "Cmq\\Subscription\\": "src/Cmq/Subscription"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cmq\\Tests\\": "tests/"
+        }
+    }
+}
